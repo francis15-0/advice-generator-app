@@ -21,6 +21,8 @@ img[alt="divider"]{
 .advice-id{
     text-align: center;
     color: hsl(150, 100%, 66%);
+    font-family: "Manrope", sans-serif;
+    
 }
 
 .circle{
@@ -56,6 +58,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsl(218, 23%, 16%);
+    margin: 0;
+        padding: 0;
 }
 
 #text{
@@ -64,5 +68,39 @@ body{
     font-family: "Manrope", sans-serif;
     margin: 0;
     color: white;
-    
+    text-align: center;
 }
+
+@media (width <= 395px) {
+    /* … */
+    body{
+        width: 100vw;
+        
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    #box-flex{
+        width: 18em;
+
+    }
+
+    .box{
+        width: 16em;
+    }
+
+    img[alt="divider"]{
+        content: url("./images/pattern-divider-mobile.svg");
+        width: 16em;
+    }
+
+    .circle-box{
+        width: 16em;
+    }
+
+    #text{
+       width: 16em;
+       height: 5em;
+    }
+  }

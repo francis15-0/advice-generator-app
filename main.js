@@ -7,8 +7,8 @@ button.addEventListener('click', ()=>{
         paragraph.textContent = '';
         advice.textContent = '';
         paragraph.textContent = `"${ data.slip.advice}"`;
-        advice.textContent = `Advice # ${data.slip.id}`;
-    }).catch(()=>{})
+        advice.textContent = `ADVICE # ${data.slip.id}`;
+    }).catch((error)=>{})
 
 });
 
